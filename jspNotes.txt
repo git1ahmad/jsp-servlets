@@ -6,3 +6,7 @@ html does not know how java object is created
 <%= %> jsp expression 
 mathmatical and boolean and objects etc
 
+<% %> jsp scriplet 
+for one to many lines of code 
+out.println for contents
+
