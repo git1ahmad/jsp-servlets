@@ -1,0 +1,6 @@
+If method is defined inside a scriplet tag then exception occurs http 504
+two methods of writing a forloop  in scriplet 
+thw whole jsp is converted to a java class by the tomcat 
+Every jsp is converted to servlet by tomcat 
+every jsp is a servlet 
+mehod declaration can not be held in scriplet tag because scriplet tag uses do get method 

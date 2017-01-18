@@ -1,0 +1,2 @@
+an object that can be persistent for different browsers or users 
+if we want more than  a session 

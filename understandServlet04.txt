@@ -1,0 +1,28 @@
+Annotaion basics
+localhost://8080/SimpleServletProject/SimpleServlet
+whenever anyone acceses url pattern of the annotation not the java file name then execute 
+the methods of the java class 
+Inorder to write a servlet we hava to extend the servlet class to HHtpServlet
+Annotation has two properties
+1.description a simple description of the servlet
+2.url pattern 
+context root of the web application = web application name
+url pattern is the key which tells the tomcat whenever an access to /SimpleServlet comes to the context root of the web application then execute this class 
+ 
+Browser used by client through url 
+Tomcat contains web appications 
+url tells tomcat what to do 
+tomcat creates two objects 
+1. requests 
+2. responses
+request object contains details about the client request made it an have post or etc 
+tomcat uses request object to identify the particular web application to run 
+then it goes to the web.xml/ annottions  and finally identifies the servlet 
+
+tomcat passes the requests and response objects to the servlet 
+servlet takes the request process it and returns to the response object 
+
+tomcat again takes the objects like response and sends to the browser and browser renders it to the client in html 
+u can change or edit the url pattern name 
+
+ 

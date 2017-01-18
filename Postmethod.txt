@@ -1,0 +1,23 @@
+let's say we want to change the output of prinln depending on USer
+by parameter
+parameter in the url comes through the request object to servlet
+?userName= ahmad this parameter goes to httprequest object and then request.getParameter("userName") takes the name from url 
+and prints it 
+doPost Method 
+for html and form 
+when a form is submitted by default it will go to the doget method
+
+
+for doGet method::
+<form action="xmlServletpath">
+ <input name = "userName" />
+ <input type = "submit" />
+
+</form>
+
+for doPost method::
+<form method = Post action="xmlServletpath">
+ <input name = "userName" />
+ <input type = "submit" />
+
+</form>

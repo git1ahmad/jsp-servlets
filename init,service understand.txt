@@ -1,0 +1,11 @@
+when diferent browser requests for same servlet object for each  request thread is created and the thread 
+handles the request of the same single servlet object 
+there are methods that runs before doget and dopost 
+init() and service()
+init(servletConfig)---->service()------->doget() + doPost()
+servlet inheritence
+genericServlet...>HttpServlet--->Myservlet 
+generic servlet = init(servletConfig), init(), service()
+Httpservlet = service()
+MyServlet = doget() + doPost()
+

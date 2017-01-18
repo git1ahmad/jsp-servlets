@@ -1,0 +1,8 @@
+...>get and post methods are assured when they are called by the servlet
+...>use get method when you are getting somthing from the application
+...>post method is used wheen you want to post something in the application and applicaton 
+needs to write something depending on the post method 
+****post makes some changes to the data 
+post not only render and and show data but also gives data to database  
+url becomes big in get method but post no url parametres of data are seen 
+doget -- httpprotocol

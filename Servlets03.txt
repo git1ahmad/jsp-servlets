@@ -1,0 +1,12 @@
+servlet--->a java class tomcat runs a servlet 
+they don't have a main method , some default method that is run
+extends hht servlet implements doget method
+@webservlet ... anotations 
+urlpatttern tomcat for accessing by 
+code written inside a doget method will run by the context name of the web application then 
+url pattern and then tomcat runs  do get method
+servlet output comes in the console
+two parameters of hhtpservlet request and response
+response.getWriter is from PrintWriter class
+import io for printwriter
+object.println("for html textsfrom servlet as output")

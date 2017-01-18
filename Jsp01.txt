@@ -1,0 +1,9 @@
+you can do with servlets but the code is huge and massive and its a pain to write everythinh with
+printwriter 
+Dynamic content = java 
+Static content = html
+<% dynamic content calculation in java form  %> ----->scriplet tag
+<%= variable_name%> --->shortcut result  in html form 
+<%=k/43/1+1 %> ----->exceptable 
+<%! declation tag %>
+contains methods that are available in all scriplet taks and expression tags 

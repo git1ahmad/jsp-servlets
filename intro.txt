@@ -1,0 +1,14 @@
+xml -file in a servlet project has a xml heading 
+secondly  a web app node inside that  a display name 
+
+Welcome file ---> Is a file taht actually runs first directly the project or default start page of a project 
+means not entering a aprticular jsp or html file diectly 
+
+Web_Content---> Contains html, servlets and  jsp files 
+web.xml actually tells the web application by default what to render 
+webcontent look for web.xml and find any default page like index.html, jsp, htm etc 
+localhost://8080 you are calling tomcat 
+localhost://8080/SimpleServletProject/ telling tomcat  to look for this web app and web app finds web.xml and 
+web.xml renders index.html or any default even if don't type 
+localhost://8080/simpleservletproject/index.html 
+

@@ -1,0 +1,37 @@
+objects in a servlet 
+1. request and response objects
+2.Servlet itself is a object 
+web application is deployed in tomcat container 
+servlet runs inside a container of tomcat 
+servlet object is also initialized by tomcat 
+response object is for writing 
+when the browser makes a request tomcat generates two objects and request and response is 
+passed to the servlet and servlett uses do get method runs and pulls data from  request 
+ writes data to response object and servlet completes request 
+
+Everytime there is a new request from the same and different browser tomcat creates the new 
+request and response object for every request of browser 
+tomcat does not reuse the object 
+Servlet objects are reused they are not created per request 
+servlets have different threads for different users benificial for less resource not instances 
+
+Http protocol are stateless protocol 
+when we make a request servlet doesn't remember our protocol parameter
+
+session Objects:
+In order to save useranem and data in server you have to use session object 
+session.setAttribute("savedUserName", userName);
+(String) session.getAttribute("savedUserName")
+session object returns an object so use datatype before expected data  
+
+dogetmethod --> when pass you username you will see result both in request object and session object 
+
+but if you don't pass any unsername in the url request object has null usrname but session object 
+has still the last username in output 
+
+same for a new username as input and output will be working like 
+
+Application of session objects : Login Screens and shopping carts
+
+Request input from a new browser will not contain the record of session objects 
+		

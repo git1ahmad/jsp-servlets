@@ -1,0 +1,4 @@
+simple for you to give multiple parametre 
+but when user chooses values from some choices i mean optional value selection
+In order to acces multiple values or input from request of client 
+request.getparametervalues() is used like checkbox and multiple options 

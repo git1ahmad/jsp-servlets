@@ -1,0 +1,8 @@
+Instead of anntaion we can configure web.xml for a servlet like 
+servlet name, class ,mapping , urlpattern
+in comparison to servlet mapping and annotation servlet config is more 
+so why we do that ?
+1.Annotation support started from java version 5 before after still used xml config
+2.change in annotation will change the code compile the class again and run it again  
+changes in xmlconfig will cause to restart tomcat 
+Annotation is prefeered bcz its less typy and easy 
