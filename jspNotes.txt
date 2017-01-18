@@ -1,0 +1,8 @@
+jsp contains some java codes and html
+html does not know how java object is created 
+
+3 types of jsp expression are valid
+
+<%= %> jsp expression 
+mathmatical and boolean and objects etc
+
