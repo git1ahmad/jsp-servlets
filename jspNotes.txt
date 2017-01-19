@@ -25,5 +25,10 @@ pagecontext
 session -unique session for each user
 
 application-shared data for all user 
+shortcut method for form data acces in jsp:
+${param.formFieldname}
+
+examples:
+${param.firstname} ${param.lastname}
 
 
