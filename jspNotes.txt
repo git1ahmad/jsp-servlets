@@ -31,4 +31,8 @@ ${param.formFieldname}
 examples:
 ${param.firstname} ${param.lastname}
 
+checkboxes allow to choose multiple options
+radio button allows only one option to choose 
+
+
 
