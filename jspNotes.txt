@@ -10,3 +10,6 @@ mathmatical and boolean and objects etc
 for one to many lines of code 
 out.println for contents
 
+<%! %>
+jsp declarations
+for declaring methods and variables
