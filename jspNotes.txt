@@ -13,3 +13,13 @@ out.println for contents
 <%! %>
 jsp declarations
 for declaring methods and variables
+
+jsp objects common ones
+request
+response 
+out
+session -unique session for each user
+
+application-shared data for all user 
+
+
