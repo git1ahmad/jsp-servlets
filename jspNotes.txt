@@ -34,5 +34,24 @@ ${param.firstname} ${param.lastname}
 checkboxes allow to choose multiple options
 radio button allows only one option to choose 
 
+Sessions are for keeping track of user action 
+like shopping cart 
+online banking 
+online exam aplication
+
+Session object is kept in the tomcat memory 
+Each user has their own session id 
+tomcat server will handle user id and passing automatically 
+
+
+
+
+
+
+
+
+
+
+
 
 
