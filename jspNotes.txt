@@ -43,6 +43,14 @@ Session object is kept in the tomcat memory
 Each user has their own session id 
 tomcat server will handle user id and passing automatically 
 
+Cookies are basically text data exchange of a unique user in a aprticular site 
+expedia.com
+travel from piladelphia to India 
+
+visit next time from the same browser and see the last data is still is there 
+reading cookies and writing cookies 
+
+
 
 
 
