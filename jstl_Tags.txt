@@ -1,0 +1,14 @@
+Two types of jstl tags are existing in java 
+1.jsp custom tags 
+2.jsp standad tag library 
+Benefits of custom tags 
+1.MiniMize the ammount of scriplet tags
+2.Thousand lines of code is reduced 
+3.Then Jsp focuses on prensentation 
+
+oracle specifications for standard tags
+core tags
+xml tags 
+sql tags 
+message formating 
+tag is reuseable
