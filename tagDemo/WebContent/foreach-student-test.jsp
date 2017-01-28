@@ -32,7 +32,11 @@
 	<tr>
       <td>${tempStudent.firstName }</td>
       <td>${tempStudent.lastName }</td>
-      <td>${tempStudent.goldCustomer }</td>    
+      <td>
+       <c:if test="${tempStudent.goldCustomer }" >s
+       	Special Discount
+       	</c:if>
+       </td>    
    </br>
    </tr>
 </c:forEach>

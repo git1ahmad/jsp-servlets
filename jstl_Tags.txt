@@ -18,5 +18,10 @@ Every Page that uses core tags must use the url :
 
 <c: for tag
 <c: if tag 
+if expression evaluates to true 
+
+if a method returns a boolean value then jsp will automatically check that in the background irrespective 
+
+of method name 
 
 
