@@ -36,6 +36,10 @@
        <c:if test="${tempStudent.goldCustomer }" >s
        	Special Discount
        	</c:if>
+         
+       	<c:if test="${not tempStudent.goldCustomer }" >
+       	 ---
+       	</c:if>
        </td>    
    </br>
    </tr>
