@@ -17,15 +17,28 @@
 <html>
 
 <body>
+<table border="1">
+
+<tr>
+  <th>FirstName</th>
+  <th>LastName</th>
+  <th>Gold Customer</th>
+</tr>
 
 
-<c:forEach var="tempStudent" items="myStudents">
 
-   ${tempStudent.firstName }  ${tempStudent.lastName } ${tempStudent.goldCustomer }
+
+<c:forEach var="tempStudent" items="${myStudents}">
+	<tr>
+      <td>${tempStudent.firstName }</td>
+      <td>${tempStudent.lastName }</td>
+      <td>${tempStudent.goldCustomer }</td>    
    </br>
-   
-
+   </tr>
 </c:forEach>
+
+
+</table>
 
 </body>
 
