@@ -14,5 +14,9 @@ message formating
 tag is reuseable
 
 Every Page that uses core tags must use the url :
-<taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "C" %>
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "C" %>
+
+<c: for tag
+<c: if tag 
+
 
