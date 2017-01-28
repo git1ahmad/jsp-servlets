@@ -14,10 +14,12 @@
 
  ${tempCity} </br>
 
-
-
-
 </c:forEach>
+<h3>Join Demo</h3>
+ 
+ <c:set var="fun" value="${fn:join(citiesArray,'*' }" />
+ 
+ Result of joining ${fun }
 
 
 </body>
