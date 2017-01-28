@@ -7,10 +7,10 @@ public class Student {
 	
 	
 	
-	public Student(String firstName, String lastname, boolean goldCustomer) {
+	public Student(String firstName, String lastName, boolean goldCustomer) {
 		super();
 		this.firstName = firstName;
-		this.lastName = lastname;
+		this.lastName = lastName;
 		this.goldCustomer = goldCustomer;
 	}
 	public String getFirstName() {
@@ -19,11 +19,11 @@ public class Student {
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-	public String getLastname() {
+	public String getLastName() {
 		return lastName;
 	}
-	public void setLastname(String lastname) {
-		this.lastName = lastname;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;a
 	}
 	public boolean isGoldCustomer() {
 		return goldCustomer;
